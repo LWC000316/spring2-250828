@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequiredArgsConstructor
 public class HomeController {
 
-    private final PersonService personService; // AppConfig에서 스프링이 관리하는 객체를 주입해줌
+    private final PersonService personService;
 
     @GetMapping("/home")
     @ResponseBody
